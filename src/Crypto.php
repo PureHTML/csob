@@ -46,7 +46,9 @@ class Crypto {
 			throw new CryptoException("Signing failed.");
 		}
 		$signature = base64_encode ($signature);
-
+                if(version_compare(PHP_VERSION, '8.0.0', '<' )){ // # openssl_free_key deprecated now #33
+                  openssl_free_key ($privateKeyId);
+                }
 		return $signature;
 	}
 
@@ -79,7 +81,9 @@ class Crypto {
 		$signature = base64_decode($signatureInBase64);
 
 		$res = openssl_verify($textToVerify, $signature, $publicKeyId, $hashMethod);
-
+                if(version_compare(PHP_VERSION, '8.0.0', '<' )){
+                    openssl_free_key($publicKeyId);
+                }
 		if ($res == -1) {
 			throw new CryptoException("Verification of signature failed: ".openssl_error_string());
 		}
