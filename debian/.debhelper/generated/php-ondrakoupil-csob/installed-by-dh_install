@@ -1,0 +1,11 @@
+./src/Client.php
+./src/Config.php
+./src/Crypto.php
+./src/CryptoException.php
+./src/Exception.php
+./src/Extension.php
+./src/GatewayUrl.php
+./src/Payment.php
+./debian/conf/composer.json
+./debian/php-ondrakoupil-csob.svg
+./debian/io.github.ondrakoupil.csob.metainfo.xml

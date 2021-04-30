@@ -1,0 +1,14 @@
+4a0f1d21435d49a57cb28bc7d2454c2b  usr/share/doc/php-ondrakoupil-csob/README.Debian
+4fcd526baaedd54212c7581af3bbaf12  usr/share/doc/php-ondrakoupil-csob/changelog.gz
+4df6c47d5daef9ba1106337c7d46eaae  usr/share/doc/php-ondrakoupil-csob/copyright
+9245e1b7e2eee888db8e136762a14892  usr/share/icons/hicolor/scalable/apps/php-ondrakoupil-csob.svg
+82daec3bf9ff3765270d5fac259ef6b2  usr/share/metainfo/io.github.ondrakoupil.csob.metainfo.xml
+0bac000c07b0ef341aae96803e0314c0  usr/share/php/ondrakoupil/csob/Client.php
+7d12b249826b8d5155600aa761452f6e  usr/share/php/ondrakoupil/csob/Config.php
+7282c30b2bbd5233213ef178388483a7  usr/share/php/ondrakoupil/csob/Crypto.php
+a8e4f02e8f2cc76d8758016912c7db28  usr/share/php/ondrakoupil/csob/CryptoException.php
+c88ec98eb50115394bc67cef50bca171  usr/share/php/ondrakoupil/csob/Exception.php
+d0eb2b84486caeaa6f77b7838c4420f9  usr/share/php/ondrakoupil/csob/Extension.php
+d95948420263fc722bb3217e224590a8  usr/share/php/ondrakoupil/csob/GatewayUrl.php
+03d6e396cb987ec704d92a0ee2b6e88a  usr/share/php/ondrakoupil/csob/Payment.php
+d41d8cd98f00b204e9800998ecf8427e  usr/share/php/ondrakoupil/csob/composer.json

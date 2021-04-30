@@ -1,0 +1,13 @@
+./tests/bootstrap.php
+./tests/dummy-config.php
+./tests/fix-old-tester.php
+./tests/real-config.php
+./tests/test-config.php
+./tests/src/Config.test.phpt
+./tests/src/Crypto.test.phpt
+./tests/src/Logging.test.phpt
+./tests/src/Payment.test.phpt
+./tests/src/Real.test.phpt
+./tests/test-keys/bank.pub
+./tests/test-keys/test-key.key
+./tests/test-keys/test-key.pub

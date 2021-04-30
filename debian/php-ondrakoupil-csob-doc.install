@@ -1,0 +1,14 @@
+docs/classes/*		usr/share/doc/php-ondrakoupil-csob/html/classes
+docs/css/*		usr/share/doc/php-ondrakoupil-csob/html/css
+docs/files/*		usr/share/doc/php-ondrakoupil-csob/html/files
+docs/graphs/*		usr/share/doc/php-ondrakoupil-csob/html/graphs
+docs/index.html		usr/share/doc/php-ondrakoupil-csob/html/
+docs/indices/*		usr/share/doc/php-ondrakoupil-csob/html/indices
+docs/js/*		usr/share/doc/php-ondrakoupil-csob/html/js
+docs/namespaces/*		usr/share/doc/php-ondrakoupil-csob/html/namespaces
+docs/packages/*		usr/share/doc/php-ondrakoupil-csob/html/packages
+docs/reports/*		usr/share/doc/php-ondrakoupil-csob/html/reports
+
+
+#debian/php-ondrakoupil-csob-doc.conf	usr/share/doc/php-ondrakoupil-csob-doc/apache
+README.md			usr/share/doc/php-ondrakoupil-csob

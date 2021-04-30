@@ -1,0 +1,15 @@
+4fcd526baaedd54212c7581af3bbaf12  usr/share/doc/php-ondrakoupil-csob-dev/changelog.gz
+4df6c47d5daef9ba1106337c7d46eaae  usr/share/doc/php-ondrakoupil-csob-dev/copyright
+44a819f104f524f924a610421bcc8ed5  usr/share/php/ondrakoupil/csob/test-keys/src/bank.pub
+869fd8ba28a645e761d37626dd0fb3a8  usr/share/php/ondrakoupil/csob/test-keys/src/test-key.key
+79951eb63528c73a42cb65b57ab237f4  usr/share/php/ondrakoupil/csob/test-keys/src/test-key.pub
+cdf9ab612d718797fa89651314d58123  usr/share/php/ondrakoupil/csob/tests/bootstrap.php
+d715a87f0d8c021d85e4a4ce4f40ceb8  usr/share/php/ondrakoupil/csob/tests/dummy-config.php
+9e74dfa93fcc22228d7479b64584f974  usr/share/php/ondrakoupil/csob/tests/fix-old-tester.php
+80efd8e363a87cc5492aca105bb2e9b1  usr/share/php/ondrakoupil/csob/tests/real-config.php
+76ef0e92606b6de17f3385c9a69d2d59  usr/share/php/ondrakoupil/csob/tests/src/Config.test.phpt
+d57ab60b00a8506a72d12247a11ec994  usr/share/php/ondrakoupil/csob/tests/src/Crypto.test.phpt
+20f1acc668833fbe1b17abd5243ad0c0  usr/share/php/ondrakoupil/csob/tests/src/Logging.test.phpt
+7f73da12050769449e6af922905e3466  usr/share/php/ondrakoupil/csob/tests/src/Payment.test.phpt
+547bd0a32d98f76101c6ae0c8d7d22f1  usr/share/php/ondrakoupil/csob/tests/src/Real.test.phpt
+18d3bef982b750940450fb9e47ce68ff  usr/share/php/ondrakoupil/csob/tests/test-config.php

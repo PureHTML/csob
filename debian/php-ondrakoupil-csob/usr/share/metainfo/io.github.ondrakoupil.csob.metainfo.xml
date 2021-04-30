@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>io.github.ondrakoupil.csob</id>
+  
+  <name>ondrakoupil/csob</name>
+  <summary>PHP Client library for easy integration of ČSOB payment gatewa</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  
+  <extends>
+    <id>io.github.ondrakoupil.csob</id>
+  </extends>
+  
+  <description>
+    <p>
+      PHP Suppport for https://platebnibrana.csob.cz/
+    </p>
+  </description>
+  
+  <icon type="stock">php-ondrakoupil-csob</icon>
+</component>

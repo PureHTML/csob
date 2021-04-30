@@ -1,0 +1,4 @@
+tests/*.php      /usr/share/php/ondrakoupil/csob/tests
+tests/src/*.phpt      /usr/share/php/ondrakoupil/csob/tests/src
+tests/test-keys/*      /usr/share/php/ondrakoupil/csob/test-keys/src
+

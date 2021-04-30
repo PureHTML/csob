@@ -1,0 +1,5 @@
+src/*.php			/usr/share/php/ondrakoupil/csob
+debian/conf/composer.json	/usr/share/php/ondrakoupil/csob
+debian/php-ondrakoupil-csob.svg	/usr/share/icons/hicolor/scalable/apps/
+debian/io.github.ondrakoupil.csob.metainfo.xml	/usr/share/metainfo/
+

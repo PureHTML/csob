@@ -1,0 +1,6 @@
+php-ondrakoupil-csob (1.8.3) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Fri, 30 Apr 2021 22:31:41 +0200

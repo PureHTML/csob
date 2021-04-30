@@ -1,0 +1,30 @@
+php-ondrakoupil-csob for Debian
+-------------------------------
+
+Please use 
+
+
+```
+{
+    "name": "purehtml/csobtest",
+    "description": "CSOB payment test",
+    "type": "project",
+    "minimum-stability": "stable",
+    "config": {
+	"vendor-dir": "/var/lib/ondrakoupil-csob-test"
+    },
+    "require": {
+        "ondrakoupil/csob": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/usr/share/ondrakoupil/csob"
+           }
+    ]
+
+}
+
+```
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Fri, 30 Apr 2021 22:31:41 +0200

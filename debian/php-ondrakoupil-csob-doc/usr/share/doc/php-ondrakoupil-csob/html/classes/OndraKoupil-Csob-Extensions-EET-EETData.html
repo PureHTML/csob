@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon.ico"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/base.css">
+            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
+        <script src="../js/search.js"></script>
+        <script defer src="../js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="../">Documentation</a></h1>
+    <nav class="phpdocumentor-topnav">
+    </nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
+    <section data-search-form class="phpdocumentor-search">
+    <h2 class="phpdocumentor-sidebar__category-header">Search</h2>
+    <label class="phpdocumentor-label">
+        <span class="visually-hidden">Search for</span>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="../namespaces/ondrakoupil.html"><abbr title="\OndraKoupil">OndraKoupil</abbr></a></h4>
+                <ul class="phpdocumentor-list">
+                                            <li><a href="../namespaces/ondrakoupil-csob.html"><abbr title="\OndraKoupil\Csob">Csob</abbr></a></li>
+                                    </ul>
+                        </section>
+
+    
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="../indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -eight phpdocumentor-content">
+                    <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/ondrakoupil.html">OndraKoupil</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/ondrakoupil-csob.html">Csob</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/ondrakoupil-csob-extensions.html">Extensions</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="../namespaces/ondrakoupil-csob-extensions-eet.html">EET</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    EETData
+
+    
+    
+    
+    </h2>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">17</span>
+</aside>
+
+            <p class="phpdocumentor-summary">Data set for the EET extension.</p>
+
+    <section class="phpdocumentor-description"><p>You need to create this object when calling paymentInit.</p>
+<p>Then, you will receive this object in responses of other methods.</p>
+<p>When creating the object, remember that $totalPrice is in CZK, not halers (as is in Payment object)</p>
+<p>See <a href="https://github.com/csob/paymentgateway/wiki/Specifikace-API-roz%C5%A1%C3%AD%C5%99en%C3%AD-pro-EET">https://github.com/csob/paymentgateway/wiki/Specifikace-API-roz%C5%A1%C3%AD%C5%99en%C3%AD-pro-EET</a>
+for details on meaning of each property.</p></section>
+
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+                <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_cashRegisterId">$cashRegisterId</a>
+    <span>
+                &nbsp;: string            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_delegatedVatId">$delegatedVatId</a>
+    <span>
+                &nbsp;: string            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_premiseId">$premiseId</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_priceFirstReducedVat">$priceFirstReducedVat</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_priceSecondReducedVat">$priceSecondReducedVat</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_priceStandardVat">$priceStandardVat</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_priceSubsequentSettlement">$priceSubsequentSettlement</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_priceTravelService">$priceTravelService</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_priceUsedGoodsFirstReduced">$priceUsedGoodsFirstReduced</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_priceUsedGoodsSecondReduced">$priceUsedGoodsSecondReduced</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_priceUsedGoodsStandardVat">$priceUsedGoodsStandardVat</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_priceUsedSubsequentSettlement">$priceUsedSubsequentSettlement</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_priceZeroVat">$priceZeroVat</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_rawData">$rawData</a>
+    <span>
+                &nbsp;: array            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_totalPrice">$totalPrice</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_vatFirstReduced">$vatFirstReduced</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_vatSecondReduced">$vatSecondReduced</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_vatStandard">$vatStandard</a>
+    <span>
+                &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>            </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#property_keyNames">$keyNames</a>
+    <span>
+                &nbsp;: mixed            </span>
+</dt>
+<dd></dd>
+
+                <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#method___construct">__construct()</a>
+    <span>
+                        &nbsp;: mixed    </span>
+</dt>
+<dd>Constructor allows to set three mandatory properties</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#method_asArray">asArray()</a>
+    <span>
+                        &nbsp;: array    </span>
+</dt>
+<dd>Export as array</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#method_formatPriceValue">formatPriceValue()</a>
+    <span>
+                        &nbsp;: <abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>    </span>
+</dt>
+<dd>Format a numeric price for use in EET extension</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#method_fromArray">fromArray()</a>
+    <span>
+                        &nbsp;: <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html"><abbr title="\OndraKoupil\Csob\Extensions\EET\EETData">EETData</abbr></a>    </span>
+</dt>
+<dd>Creates EETData object from array received from API</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html#method_getSignatureBase">getSignatureBase()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Return part of the string required for building the signature string.</dd>
+
+        </dl>
+
+
+
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="#properties" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_cashRegisterId">
+        $cashRegisterId
+        <a href="#property_cashRegisterId" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">29</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$cashRegisterId</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_delegatedVatId">
+        $delegatedVatId
+        <a href="#property_delegatedVatId" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">39</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$delegatedVatId</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_premiseId">
+        $premiseId
+        <a href="#property_premiseId" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">24</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$premiseId</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_priceFirstReducedVat">
+        $priceFirstReducedVat
+        <a href="#property_priceFirstReducedVat" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">59</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$priceFirstReducedVat</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_priceSecondReducedVat">
+        $priceSecondReducedVat
+        <a href="#property_priceSecondReducedVat" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">69</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$priceSecondReducedVat</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_priceStandardVat">
+        $priceStandardVat
+        <a href="#property_priceStandardVat" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">49</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$priceStandardVat</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_priceSubsequentSettlement">
+        $priceSubsequentSettlement
+        <a href="#property_priceSubsequentSettlement" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">99</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$priceSubsequentSettlement</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_priceTravelService">
+        $priceTravelService
+        <a href="#property_priceTravelService" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">79</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$priceTravelService</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_priceUsedGoodsFirstReduced">
+        $priceUsedGoodsFirstReduced
+        <a href="#property_priceUsedGoodsFirstReduced" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">89</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$priceUsedGoodsFirstReduced</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_priceUsedGoodsSecondReduced">
+        $priceUsedGoodsSecondReduced
+        <a href="#property_priceUsedGoodsSecondReduced" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">94</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$priceUsedGoodsSecondReduced</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_priceUsedGoodsStandardVat">
+        $priceUsedGoodsStandardVat
+        <a href="#property_priceUsedGoodsStandardVat" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">84</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$priceUsedGoodsStandardVat</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_priceUsedSubsequentSettlement">
+        $priceUsedSubsequentSettlement
+        <a href="#property_priceUsedSubsequentSettlement" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">104</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$priceUsedSubsequentSettlement</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_priceZeroVat">
+        $priceZeroVat
+        <a href="#property_priceZeroVat" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">44</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$priceZeroVat</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_rawData">
+        $rawData
+        <a href="#property_rawData" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">109</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">array</span>
+    <span class="phpdocumentor-signature__name">$rawData</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_totalPrice">
+        $totalPrice
+        <a href="#property_totalPrice" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">34</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$totalPrice</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_vatFirstReduced">
+        $vatFirstReduced
+        <a href="#property_vatFirstReduced" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">64</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$vatFirstReduced</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_vatSecondReduced">
+        $vatSecondReduced
+        <a href="#property_vatSecondReduced" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">74</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$vatSecondReduced</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_vatStandard">
+        $vatStandard
+        <a href="#property_vatStandard" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">54</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+    <span class="phpdocumentor-signature__name">$vatStandard</span>
+    </code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_keyNames">
+        $keyNames
+        <a href="#property_keyNames" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">195</span>
+</aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$keyNames</span>
+     = <span class="phpdocumentor-signature__default-value">array(&#039;premiseId&#039;, &#039;cashRegisterId&#039;, &#039;totalPrice&#039;, &#039;delegatedVatId&#039;, &#039;priceZeroVat&#039;, &#039;priceStandardVat&#039;, &#039;vatStandard&#039;, &#039;priceFirstReducedVat&#039;, &#039;vatFirstReduced&#039;, &#039;priceSecondReducedVat&#039;, &#039;vatSecondReduced&#039;, &#039;priceTravelService&#039;, &#039;priceUsedGoodsStandardVat&#039;, &#039;priceUsedGoodsFirstReduced&#039;, &#039;priceUsedGoodsSecondReduced&#039;, &#039;priceSubsequentSettlement&#039;, &#039;priceUsedSubsequentSettlement&#039;)</span></code>
+
+    
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="#methods" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">118</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Constructor allows to set three mandatory properties</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$premiseId</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cashRegisterId</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$totalPrice</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$premiseId</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cashRegisterId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$totalPrice</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_asArray">
+        asArray()
+        <a href="#method_asArray" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">129</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Export as array</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">asArray</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_formatPriceValue">
+        formatPriceValue()
+        <a href="#method_formatPriceValue" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">191</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Format a numeric price for use in EET extension</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">formatPriceValue</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$price</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$price</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><abbr title="\OndraKoupil\Csob\Extensions\EET\number">number</abbr></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_fromArray">
+        fromArray()
+        <a href="#method_fromArray" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">222</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Creates EETData object from array received from API</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">fromArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$array</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html"><abbr title="\OndraKoupil\Csob\Extensions\EET\EETData">EETData</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$array</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="../classes/OndraKoupil-Csob-Extensions-EET-EETData.html"><abbr title="\OndraKoupil\Csob\Extensions\EET\EETData">EETData</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSignatureBase">
+        getSignatureBase()
+        <a href="#method_getSignatureBase" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Extensions/EET/EETData.php"><a href="../files/src-extensions-eet-eetdata.html"><abbr title="src/Extensions/EET/EETData.php">EETData.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">243</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Return part of the string required for building the signature string.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getSignatureBase</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"></section>
+
+    
+</article>
+            </section>
+
+    </article>
+                <div data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+
+    <h2>Search results</h2>
+    <ul class="phpdocumentor-search-results__entries">
+    </ul>
+</div>
+            </div>
+        </div>
+        <a href="#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+</body>
+</html>

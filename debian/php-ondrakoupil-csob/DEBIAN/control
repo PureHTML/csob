@@ -1,0 +1,11 @@
+Package: php-ondrakoupil-csob
+Version: 1.8.3
+Architecture: all
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Installed-Size: 142
+Depends: php
+Section: office
+Priority: optional
+Homepage: https://github.com/ondrakoupil/csob
+Description: ČSOB payment gateway php support
+ PHP Client library for easy integration of ČSOB payment gateway
